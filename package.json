@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --port 3000",
-    "dev": "json-server --watch db.json --port 3000"
+    "start": "node index.js", 
+    "dev": "node index.js",
+    "merge-db": "node merge-json.cjs"
   },
   "engines": {
     "node": ">=18.x"
@@ -13,12 +14,12 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "devDependencies": {
-    "json-server": "^0.17.4",
-    "nodemon": "^3.1.10"
-  },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "json-server": "^0.17.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10" 
   }
 }
