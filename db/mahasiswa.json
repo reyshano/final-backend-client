@@ -1,0 +1,22 @@
+[
+  { "id": "1", "nama": "Alex Chandra", "nim": "A11.2021.12345", "max_sks": 18 },
+  { "id": "2", "nama": "Bella Santosa", "nim": "A11.2023.67890", "max_sks": 20 },
+  { "id": "3", "nama": "Cahya Dewi", "nim": "A11.2020.54321", "max_sks": 22 },
+  { "id": "4", "nama": "Dimas Pratama", "nim": "A11.2022.98765", "max_sks": 18 },
+  { "id": "5", "nama": "Elisa Fitri", "nim": "A11.2021.23456", "max_sks": 24 },
+  { "id": "6", "nama": "Fahmi Aziz", "nim": "A11.2023.78901", "max_sks": 21 },
+  { "id": "7", "nama": "Gina Lestari", "nim": "A11.2020.34567", "max_sks": 20 },
+  { "id": "8", "nama": "Hadi Wijaya", "nim": "A11.2022.89012", "max_sks": 18 },
+  { "id": "9", "nama": "Indra Kusuma", "nim": "A11.2021.45678", "max_sks": 20 },
+  { "id": "10", "nama": "Jihan Permata", "nim": "A11.2023.90123", "max_sks": 18 },
+  { "id": "11", "nama": "Kevin Sanjaya", "nim": "A11.2020.65432", "max_sks": 24 },
+  { "id": "12", "nama": "Laila Putri", "nim": "A11.2022.10987", "max_sks": 20 },
+  { "id": "13", "nama": "Miko Aditama", "nim": "A11.2021.56789", "max_sks": 18 },
+  { "id": "14", "nama": "Nadia Rachma", "nim": "A11.2023.21098", "max_sks": 22 },
+  { "id": "15", "nama": "Oscar Nugroho", "nim": "A11.2020.76543", "max_sks": 20 },
+  { "id": "16", "nama": "Putra Negara", "nim": "A11.2022.32109", "max_sks": 18 },
+  { "id": "17", "nama": "Qori Amelia", "nim": "A11.2021.87654", "max_sks": 18 },
+  { "id": "18", "nama": "Rendy Setiawan", "nim": "A11.2023.43210", "max_sks": 21 },
+  { "id": "19", "nama": "Sinta Wijayanti", "nim": "A11.2020.98765", "max_sks": 18 },
+  { "id": "20", "nama": "Teguh Santoso", "nim": "A11.2022.11223", "max_sks": 18 }
+]

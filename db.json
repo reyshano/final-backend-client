@@ -1,0 +1,330 @@
+{
+  "chart": {
+    "students": [
+      {
+        "id": 1,
+        "faculty": "Teknik",
+        "count": 480
+      },
+      {
+        "id": 2,
+        "faculty": "Ekonomi dan Bisnis",
+        "count": 350
+      },
+      {
+        "id": 3,
+        "faculty": "Kedokteran Gigi",
+        "count": 190
+      },
+      {
+        "id": 4,
+        "faculty": "Ilmu Komputer dan Informatika",
+        "count": 390
+      },
+      {
+        "id": 5,
+        "faculty": "Farmasi",
+        "count": 160
+      }
+    ],
+    "genderRatio": [
+      {
+        "id": 1,
+        "gender": "Laki-laki",
+        "count": 820
+      },
+      {
+        "id": 2,
+        "gender": "Perempuan",
+        "count": 910
+      }
+    ],
+    "registrations": [
+      {
+        "id": 1,
+        "year": 2020,
+        "total": 650,
+        "new_students": 320
+      },
+      {
+        "id": 2,
+        "year": 2021,
+        "total": 730,
+        "new_students": 350
+      },
+      {
+        "id": 3,
+        "year": 2022,
+        "total": 810,
+        "new_students": 380
+      },
+      {
+        "id": 4,
+        "year": 2023,
+        "total": 920,
+        "new_students": 410
+      },
+      {
+        "id": 5,
+        "year": 2024,
+        "total": 1050,
+        "new_students": 450
+      }
+    ],
+    "gradeDistribution": [
+      {
+        "subject": "Algoritma dan Pemrograman",
+        "A": 95,
+        "B": 110,
+        "C": 60,
+        "D": 25
+      },
+      {
+        "subject": "Statistika Bisnis",
+        "A": 70,
+        "B": 85,
+        "C": 70,
+        "D": 30
+      },
+      {
+        "subject": "Anatomi Fisiologi",
+        "A": 130,
+        "B": 50,
+        "C": 20,
+        "D": 5
+      },
+      {
+        "subject": "Hukum Perdata",
+        "A": 60,
+        "B": 90,
+        "C": 80,
+        "D": 40
+      }
+    ],
+    "lecturerRanks": [
+      {
+        "rank": "Asisten Ahli",
+        "count": 45
+      },
+      {
+        "rank": "Lektor",
+        "count": 65
+      },
+      {
+        "rank": "Lektor Kepala",
+        "count": 55
+      },
+      {
+        "rank": "Guru Besar",
+        "count": 18
+      },
+      {
+        "rank": "Tenaga Pengajar",
+        "count": 25
+      }
+    ]
+  },
+  "dosen": [
+    {
+      "id": 1,
+      "nama": "Pak Syaifur",
+      "max_sks": 12
+    },
+    {
+      "id": 2,
+      "nama": "Pak Suprayogi",
+      "max_sks": 10
+    },
+    {
+      "id": 3,
+      "nama": "Pak Egia",
+      "max_sks": 12
+    }
+  ],
+  "kelas": [
+    {
+      "id": "1",
+      "mata_kuliah_id": "1",
+      "dosen_id": "1",
+      "mahasiswa_ids": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    }
+  ],
+  "mahasiswa": [
+    {
+      "id": "1",
+      "nama": "Alex Chandra",
+      "nim": "A11.2021.12345",
+      "max_sks": 18
+    },
+    {
+      "id": "2",
+      "nama": "Bella Santosa",
+      "nim": "A11.2023.67890",
+      "max_sks": 20
+    },
+    {
+      "id": "3",
+      "nama": "Cahya Dewi",
+      "nim": "A11.2020.54321",
+      "max_sks": 22
+    },
+    {
+      "id": "4",
+      "nama": "Dimas Pratama",
+      "nim": "A11.2022.98765",
+      "max_sks": 18
+    },
+    {
+      "id": "5",
+      "nama": "Elisa Fitri",
+      "nim": "A11.2021.23456",
+      "max_sks": 24
+    },
+    {
+      "id": "6",
+      "nama": "Fahmi Aziz",
+      "nim": "A11.2023.78901",
+      "max_sks": 21
+    },
+    {
+      "id": "7",
+      "nama": "Gina Lestari",
+      "nim": "A11.2020.34567",
+      "max_sks": 20
+    },
+    {
+      "id": "8",
+      "nama": "Hadi Wijaya",
+      "nim": "A11.2022.89012",
+      "max_sks": 18
+    },
+    {
+      "id": "9",
+      "nama": "Indra Kusuma",
+      "nim": "A11.2021.45678",
+      "max_sks": 20
+    },
+    {
+      "id": "10",
+      "nama": "Jihan Permata",
+      "nim": "A11.2023.90123",
+      "max_sks": 18
+    },
+    {
+      "id": "11",
+      "nama": "Kevin Sanjaya",
+      "nim": "A11.2020.65432",
+      "max_sks": 24
+    },
+    {
+      "id": "12",
+      "nama": "Laila Putri",
+      "nim": "A11.2022.10987",
+      "max_sks": 20
+    },
+    {
+      "id": "13",
+      "nama": "Miko Aditama",
+      "nim": "A11.2021.56789",
+      "max_sks": 18
+    },
+    {
+      "id": "14",
+      "nama": "Nadia Rachma",
+      "nim": "A11.2023.21098",
+      "max_sks": 22
+    },
+    {
+      "id": "15",
+      "nama": "Oscar Nugroho",
+      "nim": "A11.2020.76543",
+      "max_sks": 20
+    },
+    {
+      "id": "16",
+      "nama": "Putra Negara",
+      "nim": "A11.2022.32109",
+      "max_sks": 18
+    },
+    {
+      "id": "17",
+      "nama": "Qori Amelia",
+      "nim": "A11.2021.87654",
+      "max_sks": 18
+    },
+    {
+      "id": "18",
+      "nama": "Rendy Setiawan",
+      "nim": "A11.2023.43210",
+      "max_sks": 21
+    },
+    {
+      "id": "19",
+      "nama": "Sinta Wijayanti",
+      "nim": "A11.2020.98765",
+      "max_sks": 18
+    },
+    {
+      "id": "20",
+      "nama": "Teguh Santoso",
+      "nim": "A11.2022.11223",
+      "max_sks": 18
+    }
+  ],
+  "matkul": [
+    {
+      "id": "1",
+      "name": "Algoritma dan Pemrograman",
+      "sks": 3
+    },
+    {
+      "id": "2",
+      "name": "Pemrogaman Sisi Klien",
+      "sks": 3
+    },
+    {
+      "id": "3",
+      "name": "Pemrograman Sisi Server",
+      "sks": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin 1",
+      "email": "admin@mail.com",
+      "password": "admin123",
+      "role": "admin",
+      "permission": [
+        "dashboard.page",
+        "mahasiswa.page",
+        "mahasiswa.read",
+        "mahasiswa.create",
+        "mahasiswa.update",
+        "mahasiswa.delete",
+        "rencana-studi.page",
+        "rencana-studi.read",
+        "rencana-studi.create",
+        "rencana-studi.update",
+        "rencana-studi.delete"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mahasiswa 1",
+      "email": "mahasiswa@mail.com",
+      "password": "mahasiswa123",
+      "role": "mahasiswa",
+      "permission": [
+        "krs.page",
+        "krs.read"
+      ]
+    }
+  ]
+}

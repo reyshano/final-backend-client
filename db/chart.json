@@ -1,0 +1,33 @@
+{
+  "students": [
+    { "id": 1, "faculty": "Teknik", "count": 480 },
+    { "id": 2, "faculty": "Ekonomi dan Bisnis", "count": 350 },
+    { "id": 3, "faculty": "Kedokteran Gigi", "count": 190 },
+    { "id": 4, "faculty": "Ilmu Komputer dan Informatika", "count": 390 },
+    { "id": 5, "faculty": "Farmasi", "count": 160 }
+  ],
+  "genderRatio": [
+    { "id": 1, "gender": "Laki-laki", "count": 820 },
+    { "id": 2, "gender": "Perempuan", "count": 910 }
+  ],
+  "registrations": [
+    { "id": 1, "year": 2020, "total": 650, "new_students": 320 },
+    { "id": 2, "year": 2021, "total": 730, "new_students": 350 },
+    { "id": 3, "year": 2022, "total": 810, "new_students": 380 },
+    { "id": 4, "year": 2023, "total": 920, "new_students": 410 },
+    { "id": 5, "year": 2024, "total": 1050, "new_students": 450 }
+  ],
+  "gradeDistribution": [
+    { "subject": "Algoritma dan Pemrograman", "A": 95, "B": 110, "C": 60, "D": 25 },
+    { "subject": "Statistika Bisnis", "A": 70, "B": 85, "C": 70, "D": 30 },
+    { "subject": "Anatomi Fisiologi", "A": 130, "B": 50, "C": 20, "D": 5 },
+    { "subject": "Hukum Perdata", "A": 60, "B": 90, "C": 80, "D": 40 }
+  ],
+  "lecturerRanks": [
+    { "rank": "Asisten Ahli", "count": 45 },
+    { "rank": "Lektor", "count": 65 },
+    { "rank": "Lektor Kepala", "count": 55 },
+    { "rank": "Guru Besar", "count": 18 },
+    { "rank": "Tenaga Pengajar", "count": 25 }
+  ]
+}
